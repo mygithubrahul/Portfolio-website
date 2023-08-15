@@ -1,0 +1,55 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header, nav, section, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
